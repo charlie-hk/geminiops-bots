@@ -1,6 +1,6 @@
 # GeminiOps Bots
 
-![GeminiOps Bots cover](assets/cover.png)
+![GeminiOps Bots cover](assets/cover.png?v=9882a9a)
 
 A small, modular framework for three recurring ops-automation jobs, built
 around Google's Gemini API:
