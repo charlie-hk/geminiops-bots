@@ -1,0 +1,33 @@
+[
+  {
+    "name": "login_page_loads",
+    "url": "https://the-internet.herokuapp.com/login",
+    "expect_selector": "#username",
+    "expect_text": null
+  },
+  {
+    "name": "valid_login_succeeds",
+    "url": "https://the-internet.herokuapp.com/login",
+    "action": "login_demo",
+    "expect_text": "You logged into a secure area"
+  },
+  {
+    "name": "invalid_login_rejected",
+    "url": "https://the-internet.herokuapp.com/login",
+    "action": "login_invalid",
+    "expect_text": "Your username is invalid"
+  },
+  {
+    "name": "checkboxes_page_loads",
+    "url": "https://the-internet.herokuapp.com/checkboxes",
+    "expect_selector": "#checkboxes",
+    "expect_text": null
+  },
+  {
+    "name": "dropdown_has_three_options",
+    "url": "https://the-internet.herokuapp.com/dropdown",
+    "action": "count_options",
+    "selector": "#dropdown option",
+    "expect_count": 3
+  }
+]
